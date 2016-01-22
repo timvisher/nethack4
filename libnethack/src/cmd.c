@@ -1788,7 +1788,7 @@ dotravel(const struct nh_cmd_arg *arg)
 
     action_incomplete("travelling", occ_travel);
     return domove(&(struct nh_cmd_arg){.argtype = CMD_ARG_DIR, .dir = DIR_SELF},
-                  exploration_interaction_status(), occ_travel);
+                  uim_nointeraction, occ_travel);
 }
 
 /*cmd.c*/

@@ -903,9 +903,10 @@ test_move(int ux, int uy, int dx, int dy, int dz, int mode,
     }
 
     /* Can we be blocked by a boulder? */
-    if (!throws_rocks(youmonst.data) &&
-        !(verysmall(youmonst.data) && !u.usteed) &&
-        !((!invent || inv_weight() <= -850) && !u.usteed)) {
+    if (travelling() ||
+        (!throws_rocks(youmonst.data) &&
+         !(verysmall(youmonst.data) && !u.usteed) &&
+         !((!invent || inv_weight() <= -850) && !u.usteed))) {
         /* We assume we can move boulders when we're at a distance from them.
            When it comes to actually do the move, resolve_uim() may replace the
            move with a #pushboulder command. If it doesn't, the move fails
