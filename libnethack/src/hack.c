@@ -1703,11 +1703,6 @@ domove(const struct nh_cmd_arg *arg, enum u_interaction_mode uim,
        change directions to round a corner. */
     if (last_command_was("run")) {
         lookaround(uim_displace);
-        if (flags.interrupted) {
-            turnstate.move.dx = 0;
-            turnstate.move.dy = 0;
-            return 0;
-        }
     }
 
     u.ux0 = u.ux;
