@@ -1,0 +1,42 @@
+The idea of this branch is to explore making a version of nethack that
+focusses on giving proactive hints to the player, thus reducing the need
+to rely on the wiki or irc to spoil the player.
+
+* A Brief List of Ideas to Explore
+
+** Recommended Classes
+
+   i.e. Ascend a Lawful Female Dwarven Valkyre, /then/ a wizard, etc.
+
+   When starting to play noobhack, you always start as a LFDV until you've
+   ascended that class. Then, you always start as Chaotic Male Elven
+   Wizard, perhaps even with locked stats or inventory.
+
+   The idea is to approach the game as a series of increasingly difficult
+   classes, as the starter guide recommends.
+
+** In game, reliable tips.
+
+   Pro-actively inform the player of things they'd otherwise have to die
+   to learn or be extremely observant to notice.
+
+*** Monster Help
+
+    First time monsters are seen, display a paragraph of health tips about
+    them, maybe with rough stats and whether or not you should consider
+    them dangerous?
+
+*** ???
+
+** Stabilized Prices (locked charisma?)
+
+   Possibly accompanied with a guide to how price helps you identify items
+   of different classes.
+
+** Triggered Events
+
+*** Gnomish Mines
+
+*** Message Interpretation
+
+    i.e. 'you hear…' popping up a message about what it means.
