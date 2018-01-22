@@ -1,0 +1,46 @@
+* autohack notes
+
+  The general idea of this branch is to explore further automations that
+  could be applied to skilled play to reduce monotony.
+
+  There are two primary threads to explore:
+
+  1. Further automatic identification/note taking
+  2. 'Macro' style tooling
+
+** Basic automation
+
+   We already do things like automatically annotate the oracle level or
+   fort ludios, etc.
+
+   I'd like to add to that things like vaults (if the player hears 'You
+   hear the footsteps of a guard on patrol' the level is automatically
+   annotated with a 'vault' note, etc.)
+
+   Things like a random 80 value scroll automatically being identified as
+   enchant weapon (armor?).
+
+   Also under this category would be price identification. Items would be
+   automatically appearance named as their possibilities as the price is
+   discovered and paired down as ambiguities are removed.
+
+** Macros
+
+   For instance, BUC testing. One could select a list of things in
+   inventory or on the square (maybe even in sight?) that they want to BUC
+   test, and the game would then spread out the items and observe pet
+   activity, potentially with sophisticated activity like applying a magic
+   whistle if present.
+
+   All items would be named BUC and as the pet moves around C would be
+   removed or not depending on the pets behavior. Known C would
+   automatically be removed from the floor to allow pets free movement.
+
+   Corridors would be preferred etc.
+
+   The entire thing should hook into the far-travel system in that it can
+   be configurably interruptable.
+
+   Aside from these there would be a general keyboard macro system. (i.e.
+   Emacs or Dwarf Fortress) to safely repeat a complex set of actions,
+   again hooking into the far-travel system.
