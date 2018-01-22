@@ -44,3 +44,17 @@
    Aside from these there would be a general keyboard macro system. (i.e.
    Emacs or Dwarf Fortress) to safely repeat a complex set of actions,
    again hooking into the far-travel system.
+
+*** =autobuc=
+
+    Automatically test selected items via a pet (or altar if known?)
+
+*** =autoalchemy=
+
+    Select a potion type target. Target number (max at current supplies).
+
+*** =autopriceid=
+
+    Automate the process of dropping and picking up items.
+
+*** =autocreditclone=
