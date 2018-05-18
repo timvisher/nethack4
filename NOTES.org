@@ -58,3 +58,15 @@
     Automate the process of dropping and picking up items.
 
 *** =autocreditclone=
+
+** Keyboard Macros + Travel System :ATTACH:
+   :PROPERTIES:
+   :Attachments: 2017-12-12T07:58:00%20a.mp3
+   :ID:       7B3923EF-106D-4D0C-9AEA-C6318530AB4A
+   :END:
+
+   Move carefully interrupting for any reason that travel would normally
+   interrupt.
+
+   Travel by: Select a far point, enter a keyboard macro (move, search,
+   search, search) and then do that until you reach your target.
